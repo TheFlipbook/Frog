@@ -17,17 +17,22 @@
         "model": "auth.group",
         "pk": 1,
         "fields": {
-            "name": "managers"
+            "name": "gallery_users"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "gallery_staff"
         }
     },
     {
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "username": "admin",
-            "first_name": "Admin",
-            "is_staff": true,
-            "is_superuser": true
+            "username": "builtin",
+            "first_name": "Built-In"
         }
     }
 ]
